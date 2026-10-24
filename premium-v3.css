@@ -1,0 +1,27 @@
+/* AL HASM Premium V3 • progressive visual enhancement over the existing approved design */
+:root{--v3-burgundy:#5d0b24;--v3-plum:#310717;--v3-gold:#ba8b50;--v3-border:#eee4df;--v3-shadow:0 22px 60px rgba(67,7,32,.12)}
+.site-header{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(111,34,53,.065)}
+.brand img{filter:drop-shadow(0 4px 9px rgba(74,14,28,.12))}
+.btn-primary,.search-submit{background:linear-gradient(117deg,#4b071b,#7b1537 65%,#59091f)!important;box-shadow:0 12px 24px rgba(87,8,36,.18);transition:transform .3s,box-shadow .3s,background-position .5s!important}
+.btn-primary:hover,.search-submit:hover{transform:translateY(-3px);box-shadow:0 18px 35px rgba(91,10,33,.28)}
+.property-card{border:1px solid rgba(71,12,35,.055);box-shadow:0 9px 30px rgba(55,10,28,.06);transition:transform .4s cubic-bezier(.2,1,.3,1),box-shadow .4s,border-color .4s}
+.property-card:hover{transform:translateY(-8px);box-shadow:var(--v3-shadow);border-color:#d6b19e}
+.property-image-wrap img{transition:transform .9s cubic-bezier(.2,1,.3,1),filter .5s;filter:saturate(1.04)}.property-card:hover .property-image-wrap img{transform:scale(1.075);filter:saturate(1.15)}
+.property-image-wrap{isolation:isolate;overflow:hidden}.property-badge{backdrop-filter:blur(8px)}
+.search-panel{box-shadow:0 28px 75px rgba(46,10,24,.16)!important;border:1px solid rgba(231,212,203,.8)}
+.search-panel input:focus,.search-panel select:focus{outline:2px solid #b88958;outline-offset:3px;border-radius:4px}
+.advanced-options summary{cursor:pointer}
+.v3-live-map{height:325px;position:relative;overflow:hidden;border-radius:12px;background:#e8e8df}.v3-live-map .listings-map,.v3-live-map iframe{height:100%;width:100%}.v3-live-map .leaflet-container{height:100%}.leaflet-popup-content .v3-map-popup a{font-weight:700;color:var(--wine)}
+.v3-map-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;margin:9px 0;color:#4f3740}.v3-map-controls label{display:flex;align-items:center;gap:6px}.v3-map-controls button{border:1px solid #d8bec7;border-radius:20px;background:#fff;padding:5px 12px;color:#6b1b35}
+#ajax-property-results{transition:opacity .22s;min-height:250px}#ajax-property-results.v3-loading{opacity:.42;pointer-events:none}
+#v3-notice{position:fixed;bottom:24px;left:50%;z-index:9999;transform:translate(-50%,20px);opacity:0;transition:opacity .25s,transform .25s;border-radius:14px;background:#390818;color:#fff;box-shadow:0 10px 35px #22040f77;padding:13px 22px;pointer-events:none}#v3-notice.on{opacity:1;transform:translate(-50%,0)}
+.v3-brochure-link,.v3-whatsapp-link{display:inline-flex;align-items:center;justify-content:center;gap:5px;font-size:12px;font-weight:700;color:#631029;padding:7px 11px;background:#f8f1ed;border:1px solid #edddd6;border-radius:8px;white-space:nowrap;transition:background .22s}
+.v3-whatsapp-link{background:#edf7f0;border-color:#cae6d2;color:#206a48}.v3-brochure-link:hover{background:#e6d3c6}.v3-whatsapp-link:hover{background:#d9ecdf}
+.detail-gallery .detail-main-photo img{transition:opacity .25s,transform .7s}.detail-main-photo:hover img{transform:scale(1.017)}
+.detail-tabs{position:sticky;top:73px;z-index:70;box-shadow:0 7px 20px #2b071411;background:#fff}
+.footer-intro{background-image:linear-gradient(115deg,#340715,#7a1536)}
+@media(max-width:1080px){.detail-tabs{top:65px}.nav-phone{display:none}}
+@media(max-width:767px){.wrap{padding-left:17px;padding-right:17px}.site-header{height:72px}.brand img{width:49px;height:49px}.brand-text strong{font-size:21px}.brand-text small{font-size:7px;letter-spacing:.9px}.property-card:hover{transform:none}.v3-live-map{height:290px}.detail-tabs{overflow-x:auto;gap:13px;top:64px}.detail-tabs a{white-space:nowrap}.v3-brochure-link,.v3-whatsapp-link{font-size:11px;padding:6px}}
+@media(prefers-reduced-motion:reduce){.property-card,.property-image-wrap img,.btn-primary,.detail-main-photo img{transition:none!important;transform:none!important}html{scroll-behavior:auto}}
+
+.v3-honeypot{position:absolute!important;left:-10000px!important;top:auto!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}

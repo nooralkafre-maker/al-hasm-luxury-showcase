@@ -1,0 +1,10 @@
+# Keep this repository static/public. Never commit Laravel configuration or databases.
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+/vendor/
+/node_modules/
+/storage/
+/public/storage/

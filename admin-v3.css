@@ -1,0 +1,20 @@
+/* AL HASM V3 — operational dashboard extension */
+.admin-side{background:linear-gradient(170deg,#270512,#560b25 55%,#370715);box-shadow:10px 0 40px #21030f16}
+.admin-side nav>a{border-radius:10px;transition:background .2s,transform .2s}.admin-side nav>a:hover{transform:translateX(3px)}
+.admin-page{padding-bottom:45px}
+.v3-panel{margin-bottom:22px;padding:26px}.v3-panel h2{margin-bottom:20px}.v3-panel h3{font-size:17px;margin-top:28px}
+.v3-team-form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;align-items:end}.v3-team-form label,.v3-profile-card label{display:grid;gap:6px;color:#605159;font-weight:700;font-size:12px}
+.v3-team-form input,.v3-team-form select,.v3-profile-card input,.v3-filter-inline input,.admin-table input,.admin-table select{min-height:40px;border:1px solid #e2d8dc;border-radius:9px;padding:9px 12px;background:#fff;color:#3b2931;width:100%;max-width:330px}
+.v3-team-form button{min-height:41px}.v3-profile-card{max-width:680px}.v3-profile-card form{display:grid;gap:19px;margin-top:25px}.v3-profile-card p{color:#7a6a70}.v3-profile-card button{max-width:290px}
+.admin-table td{vertical-align:middle}.admin-table td form input,.admin-table td form select{display:inline-block;max-width:160px;margin:4px 5px 4px 0;font-size:11px}.admin-table td form{margin:3px 0}
+.v3-filter-inline{display:flex;gap:12px;margin:0 0 20px;flex-wrap:wrap}.v3-filter-inline input{min-width:250px}
+.v3-report-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:25px 0}
+.v3-report-stats>div{padding:28px 23px;border:1px solid #e9dde1;border-radius:16px;background:linear-gradient(145deg,#fff,#faf6f5);box-shadow:0 10px 25px #420d250b}.v3-report-stats small{display:block;font-size:10px;letter-spacing:1.3px;color:#84666e;font-weight:800}.v3-report-stats strong{display:block;font:35px Georgia,serif;margin:11px 0;color:#591027}.v3-report-stats span{color:#847980;font-size:12px}
+.v3-daily-chart{height:240px;display:grid;grid-template-columns:repeat(30,minmax(0,1fr));gap:7px;align-items:end;padding:16px 0 5px}
+.v3-daily-chart>div{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;position:relative}.v3-daily-chart b{display:block;width:100%;min-height:5px;background:linear-gradient(0deg,#650b26,#b98660);border-radius:7px 7px 2px 2px;transition:height .3s}.v3-daily-chart small{position:absolute;bottom:-17px;font-size:9px;white-space:nowrap;color:#95888e}
+.v3-report-columns{display:grid;grid-template-columns:1.65fr 1fr;gap:19px;margin-top:27px}.v3-health-number{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid #eee5e8}.v3-health-number span{color:#7b6d76}.v3-health-number b{font-size:20px;color:#640d27}
+@media(max-width:1100px){.v3-team-form{grid-template-columns:repeat(2,minmax(0,1fr))}.v3-report-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.v3-panel{padding:17px}.v3-team-form,.v3-report-stats,.v3-report-columns{grid-template-columns:1fr}.v3-daily-chart{gap:3px}.v3-daily-chart small{display:none}}
+@media(prefers-reduced-motion:reduce){.admin-side nav>a,.v3-daily-chart b{transition:none}}
+
+.v3-secret{font-size:21px;letter-spacing:3px;word-break:break-all;padding:15px;background:#f7eff2;border-radius:10px}.v3-recovery{background:#fff6df;border:1px solid #d5b777;padding:20px;border-radius:12px}.v3-recovery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding-top:15px}.v3-recovery code{font-size:17px;background:#fff;padding:10px;border-radius:8px}
