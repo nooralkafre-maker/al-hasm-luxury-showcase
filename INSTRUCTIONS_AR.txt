@@ -1,0 +1,16 @@
+AL HASM — إصلاح الشكل على GitHub Pages V5
+========================================
+سبب المشكلة: رفع جميع الملفات في جذر المستودع، بينما HTML يبحث في assets/css وassets/images وassets/js.
+أعددنا هذه الحزمة لتعمل مع الملفات المرفوعة حاليًا بدون إعادة ترتيب 53 ملفًا.
+
+طريقة التثبيت (GitHub على المتصفح):
+1. افتح https://github.com/nooralkafre-maker/al-hasm-luxury-showcase
+2. اختر Add file ثم Upload files.
+3. افتح مجلد PATCH_UPLOAD_FILES (لا ترفع ملف ZIP).
+4. حدد ملفات HTML الثمانية + premium-v2.css + github-polish.css واسحبها إلى GitHub.
+5. اضغط Commit changes ووافق على استبدال الملفات الموجودة بنفس الاسم.
+6. افتح رابط الموقع https://nooralkafre-maker.github.io/al-hasm-luxury-showcase/?v=5
+7. اضغط Ctrl+F5 إن ظهرت نسخة قديمة.
+
+تنبيه: GitHub Pages هو عرض ثابت فقط؛ لوحة التحكم admin.html ليست Laravel الحقيقي.
+الصور والفيديوهات توضيحية/تجريبية؛ لا تستخدم بيانات العقارات التجريبية كعروض للبيع.
